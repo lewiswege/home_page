@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.profile-card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.profile-score {
+    background-color: #FFD700;
+    color: #1e1e1e;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.profile-info {
+    text-align: center;
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.joined-date {
+    color: #888;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.profile-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    width: 30px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.twitter {
+    background-image: url('twitter-icon.png'); /* Add the appropriate icon */
+}
+
+.linkedin {
+    background-image: url('linkedin-icon.png'); /* Add the appropriate icon */
+}
+
+.profile-description {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.location {
+    color: #888;
+    font-size: 14px;
+}
